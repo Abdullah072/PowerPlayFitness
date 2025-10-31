@@ -14,6 +14,7 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="plans.html">Plans</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
                 <li><a href="contact.html" class="active">Contact</a></li>
             </ul>
         </nav>
@@ -21,8 +22,13 @@
 
     <main class="page">
         <h1>Get In Touch</h1>
-        <p>Ready to join the quest? Fill out the form below and one of our coaches will reach out to discuss your goals and set up your account.</p>
-        <form class="contact-form" action="#" method="post">
+        <p>Have questions about our plans or want advice on how to get really jacked? Reach out anytime — I’d love to help. You can email me at <a href="mailto:abdulwahida340@gmail.com">abdulwahida340@gmail.com</a> or call/text <a href="tel:7737063783">773‑706‑3783</a>.</p>
+        <p>If you prefer using a form, feel free to send your details below and I’ll respond personally.</p>
+        <form class="contact-form" action="https://formsubmit.co/abdulwahida340@gmail.com" method="POST">
+            <!-- FormSubmit hidden fields for custom subject and redirect URL -->
+            <input type="hidden" name="_subject" value="New message from PowerPlay Fitness contact form">
+            <input type="hidden" name="_next" value="https://abdullah072.github.io/PowerPlayFitness/thankyou.html">
+            <input type="hidden" name="_captcha" value="false">
             <label for="name">Name</label>
             <input type="text" id="name" name="name" required>
 
