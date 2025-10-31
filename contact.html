@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact • PowerPlay Fitness</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div class="logo">PowerPlay Fitness</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="plans.html">Plans</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="page">
+        <h1>Get In Touch</h1>
+        <p>Ready to join the quest? Fill out the form below and one of our coaches will reach out to discuss your goals and set up your account.</p>
+        <form class="contact-form" action="#" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="plan">Preferred Plan</label>
+            <select id="plan" name="plan">
+                <option value="XP Start">XP Start</option>
+                <option value="Pro Gamer Gains">Pro Gamer Gains</option>
+                <option value="Legendary Level Up">Legendary Level Up</option>
+            </select>
+
+            <label for="message">Your Goals & Questions</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+
+            <button type="submit" class="cta small">Submit</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 PowerPlay Fitness. All rights reserved.</p>
+    </footer>
+</body>
+</html>
